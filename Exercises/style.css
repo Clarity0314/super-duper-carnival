@@ -1,0 +1,19 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: pink;
+}
+p{
+    color:green;
+}
+.wrapper li{
+    color: orange;
+}
+.wrapper p{
+    color: blue;
+    font-style:italic;
+}
+.wrapper a:link {
+    color:pink;
+}
