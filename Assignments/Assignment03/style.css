@@ -1,0 +1,54 @@
+body{
+    margin: 50px;
+    background-color: #fde8d3;
+}
+
+.title{
+    font-family: Playfair Display;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+img{
+    width: 100%;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+.author{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+h3{
+    font-family: Playfair Display;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+
+.article{
+    display: inline-block;
+    margin-left: 5%;
+    width: 72%;
+    vertical-align: top;
+}
+
+h4{
+    font-family: Playfair Display;
+    font-size: 16pt;
+    font-style: italic;
+    line-height: 150%;
+    color: rgb(75, 75, 75);
+    margin-top: 0%;
+}
+
+p{
+    font-family: Playfair Display;
+    font-size: 12pt;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
