@@ -1,0 +1,64 @@
+body{
+    margin: 50px;
+    background-color: #fde8d3;
+}
+
+.title{
+    font-family: Playfair Display;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+img{
+    width: 100%;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 5%;
+}
+
+.author{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+a{
+    font-family: Playfair Display;
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    padding-top: 15px;
+}
+
+.article{
+    display: inline-block;
+    margin-left: 5%;
+    width: 72%;
+    vertical-align: top;
+}
+
+h4{
+    font-family: Playfair Display;
+    font-size: 16pt;
+    font-style: italic;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    background-color: rgb(150, 150, 150);
+    padding-left: 5px;
+}
+
+p{
+    font-family: Playfair Display;
+    font-size: 12pt;
+    line-height: 200%;
+    margin-bottom: 50px;
+}
+
+hr{
+    height: 0.5px;
+    background-color:rgb(100, 100, 100) ;
+}
