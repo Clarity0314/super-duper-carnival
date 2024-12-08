@@ -1,0 +1,50 @@
+.btnBox {
+  display: flex;
+}
+.btnBox .cardItemBtn {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+  font-family: "lores-12", sans-serif;
+  font-size: 20px;
+  overflow: visible; 
+}
+
+.btnBox .cardItemBtn .mask {
+  display: none; /* 默认隐藏 */
+  position: absolute;
+  bottom: 100%;
+  width: 150px; /* 宽度与父按钮一致 */
+  flex-direction: column; /* 按列排列 */
+  align-items: flex-start; /* 左对齐按钮 */
+  padding: 10px; /* 内边距 */
+  z-index: 20; /* 确保按钮在上层 */
+  pointer-events: auto; 
+}
+
+.btnBox .cardItemBtn:hover .mask {
+  display: flex;
+}
+.btnBox .cardItemBtn .mask button {
+    width: 100%; /* 按钮宽度占满父级 */
+    text-align: center; 
+    padding: 5px 10px; /* 按钮内边距 */
+    margin: 2px 0; /* 按钮之间的间距 */
+    border: none; /* 移除边框 */
+    cursor: pointer; /* 鼠标样式 */
+    font-family: "lores-12", sans-serif;
+    font-size: 14px;
+    justify-content: center; /* 确保文本水平居中 */
+    align-items: center; 
+    background: transparent;
+    color: white;
+}
+
+.btnBox .cardItemBtn .mask button:hover {
+   display: flex;
+  background: blueviolet; /* 无背景色 */
+}
